@@ -17,7 +17,7 @@ object ProjectBuild extends Build {
       resolvers += "Typesafe Releases" at "http://repo.typesafe.com/typesafe/releases/",
       resolvers += "restlet" at "http://maven.restlet.org",
       libraryDependencies ++= Seq(
-      libraryDependencies += "org.scala-lang" % "scala-library" % "2.10.2",
+      "org.scala-lang" % "scala-library" % "2.10.2",
       "org.scalacheck" %% "scalacheck" % "1.11.4" % "test",
       "org.scalatest" % "scalatest_2.10" % "2.2.0" % "test",
       "com.typesafe.slick" % "slick_2.10" % "1.0.1",
