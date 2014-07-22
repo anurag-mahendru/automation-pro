@@ -25,8 +25,7 @@ object ProjectBuild extends Build {
       "com.h2database" % "h2" % "1.3.170",
       "org.ini4j" % "ini4j" % "0.5.1",
       "org.slf4j" % "slf4j-api" % "1.7.5"
-				 )
-					     )
-
-		    	  )
+	)
+        )
+      )
 }
